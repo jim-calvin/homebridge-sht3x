@@ -15,7 +15,10 @@
       "address": "0x44",
       "bus": 1,
       "interval": 120,
-      "history": {"storage": "fs"}
+      "history": {"storage": "fs"},
+      "temperatureCalibration": 0,
+      "humidityCalibration": 0,
+      "dewpointEnabled": false
     }
   ],
 
