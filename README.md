@@ -66,6 +66,9 @@ The following table shows the list of supported configuration parameters:
 | `bus`       | I²C bus number. Defaults to `1`. See the [I²C setup](#ic-setup) section below. |
 | `interval`  | Time interval at which the device is polled, in seconds (default: `60`).       |
 | `history`   | Options passed to fakegato-history as an object. Empty by default.             |
+| `dewpointEnabled` | Create a dewpoint service if true. Defaults to false                     |
+| `temperatureCalibration` | Temperature calibration offset value. Defaults to 0               |
+| `humidityCalibration` | Humidity calibration offset value. Defaults to 0                     |
 
 ### I²C setup
 
